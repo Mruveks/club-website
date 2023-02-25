@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="w-full h-40 text-4xl">
+    <footer className="w-full text-4xl">
       
       <div id="socials" className="flex justify-center gap-10 h-20 items-center border-t-2 border-black">
         <div>Facebook</div>

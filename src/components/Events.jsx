@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Home = () => {
+const Events = () => {
   return (
-    <div className="flex w-screen flex-none top-0 border-x border-black text-4xl text-center pt-20">
+    <div className="flex w-screen bg-red-500 flex-none top-0 border-x border-black text-4xl text-center pt-20">
       <div className="w-[50%] border-r-2 border-black">
 
         <div className="grid gap-2 p-10 border-black border-b-2">
@@ -53,4 +53,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Events
