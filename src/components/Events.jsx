@@ -4,8 +4,7 @@ const Events = () => {
 
   const eventStyle = "border-b-2 border-black p-10 hover:bg-red-400 h-full"
   const rectangleStyle_1 = "pl-60 h-20 w-20 border-black border-4 rotate-45 transform origin-bottom-left"
-  const rectangleStyle_2 = "pr-60 h-20 w-20 border-black border-4 rotate-45 transform origin-bottom-left"
-
+  
   return (
     <div className="flex w-screen bg-red-600 flex-none top-0 border-x border-black text-4xl text-center pt-20">
 

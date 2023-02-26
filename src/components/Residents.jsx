@@ -8,13 +8,13 @@ const Residents = () => {
     <table className="flex flex-none w-screen text-center bg-yellow-600 top-0 border-x border-black text-4xl pt-20">
 
       <div id="column" className="w-[50%]">
-        <div className={`${cellStyle} hover:bg-resident1`}>
+        <div className={`grid items-center h-96 bg-cover hover:opacity-60 hover:grayscale hover:text-white border-b-2 border-black hover:bg-resident1`}>
           <header className="">Griessmuehle</header>
         </div>
-        <div className={`${cellStyle} hover:bg-resident4`}>
+        <div className={`grid items-center h-96 bg-cover hover:opacity-60 hover:grayscale hover:text-white border-b-2 border-black hover:bg-resident4`}>
           <header className="">Mauro Picotto</header>
         </div>
-        <div className={`${cellStyle} hover:bg-resident7 border-b-0`}>
+        <div className={`grid items-center h-96 bg-cover hover:opacity-60 hover:grayscale hover:text-white border-black hover:bg-resident7 border-b-0`}>
           <header className="">Casual Gabberz</header>
         </div>
       </div>
