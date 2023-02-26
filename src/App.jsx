@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import './App.css'
-import { noScrollbarsClassName } from 'react-remove-scroll-bar'
 import Home from './components/Home'
 import Events from './components/Events'
 import Residents from './components/Residents'
@@ -52,7 +51,7 @@ function App() {
   return (
     <div className="bg-green-600 font-bold uppercase w-screen ">
 
-      <nav className="flex justify-center gap-10 text-4xl items-center fixed bg-green-600 top-0 h-20 w-full uppercase border-black border-b-2">
+      <nav className="flex justify-center gap-10 text-4xl items-center fixed bg-green-600 top-0 z-10 h-20 w-full border-black border-b-2">
         <img src={logo} alt="logo" className="absolute top-2 left-2 h-16 "/>
         <div className={`${cellStyle} ${nav === 'Club' ? navStyle : null}`} onClick={() => { handleNav('Club') }}>
           Club
