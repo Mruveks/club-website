@@ -16,31 +16,38 @@ import club14 from '../assets/club14.jpg'
 
 const Gallery = () => {
 
-  const imgStyle = "grayscale hover:grayscale-0"
+  const imgStyle = "grayscale hover:grayscale-0 w-96 border-transparent border-t-0 border"
 
   return (
-    <div className="flex w-screen h-fit pb-[-40px] bg-black flex-none top-0 border-x border-black text-4xl text-center pt-20">
+    <div className="flex w-screen bg-blue-600 flex-none top-0 border-x border-black text-4xl text-center pt-20">
       <div className="flex flex-col">
         <img src={club1} alt="cloud" className={`${imgStyle}`}/>
         <img src={club2} alt="cloud" className={`${imgStyle}`}/>    
         <img src={club10} alt="cloud" className={`${imgStyle}`}/>    
-        <img src={club12} alt="cloud" className={`${imgStyle}`} />
-        <img src={club14} alt="cloud" className={`${imgStyle}`} />
-        <img src={club2} alt="cloud" className={`${imgStyle}`}/>  
       </div>
       <div className="flex flex-col">
         <img src={club4} alt="cloud" className={`${imgStyle}`}/>   
         <img src={club5} alt="cloud" className={`${imgStyle}`}/>    
-        <img src={club6} alt="cloud" className={`${imgStyle}`} />
         <img src={club3} alt="cloud" className={`${imgStyle}`} />
       </div>
       <div className="flex flex-col">
         <img src={club7} alt="cloud" className={`${imgStyle}`}/>   
         <img src={club8} alt="cloud" className={`${imgStyle}`}/>    
         <img src={club9} alt="cloud" className={`${imgStyle}`}/>
-        <img src={club11} alt="cloud" className={`${imgStyle}`}/>    
-        <img src={club13} alt="cloud" className={`${imgStyle}`}/> 
       </div>
+
+      <div className="flex flex-col">
+        <img src={club3} alt="cloud" className={`${imgStyle}`}/>   
+        <img src={club14} alt="cloud" className={`${imgStyle}`}/>    
+        <img src={club13} alt="cloud" className={`${imgStyle}`}/>
+      </div>
+      <div className="flex flex-col">
+        <img src={club14} alt="cloud" className={`${imgStyle}`}/>   
+        <img src={club12} alt="cloud" className={`${imgStyle}`}/>    
+        <img src={club11} alt="cloud" className={`${imgStyle}`} />
+        <img src={club2} alt="cloud" className={`${imgStyle}`}/>    
+      </div>
+
     </div>
   )
 }

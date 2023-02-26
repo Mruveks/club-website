@@ -49,7 +49,7 @@ function App() {
   const navStyle = 'transform scale-125 transition duration-150 ease-in-out text-red-400'
 
   return (
-    <div className="bg-green-600 font-bold uppercase w-screen ">
+    <div className="bg-green-600 h-fit font-bold uppercase w-screen ">
 
       <nav className="flex justify-center gap-10 text-4xl items-center fixed bg-green-600 top-0 z-10 h-20 w-full border-black border-b-2">
         <img src={logo} alt="logo" className="absolute top-2 left-2 h-16 "/>
@@ -67,8 +67,7 @@ function App() {
         </div>
       </nav>
       
-      <div id="slider" className='flex overflow-x-scroll scroll scroll-smooth scrollbar-hide'>
-        
+      <div id="slider" className='flex h-auto overflow-x-scroll scroll scroll-smooth scrollbar-hide'>
         <Home />
         <Events />
         <Residents />
