@@ -1,54 +1,46 @@
 import React from 'react'
+import club1 from '../assets/club1.jpg'
+import club2 from '../assets/club2.jpg'
+import club3 from '../assets/club3.jpg'
+import club4 from '../assets/club4.jpg'
+import club5 from '../assets/club5.jpg'
+import club6 from '../assets/club6.jpg'
+import club7 from '../assets/club7.jpg'
+import club8 from '../assets/club8.jpg'
+import club9 from '../assets/club9.jpg'
+import club10 from '../assets/club10.jpg'
+import club11 from '../assets/club11.jpg'
+import club12 from '../assets/club12.jpg'
+import club13 from '../assets/club13.jpg'
+import club14 from '../assets/club14.jpg'
 
 const Gallery = () => {
+
+  const imgStyle = "grayscale hover:grayscale-0"
+
   return (
-    <div className="flex w-screen bg-blue-600 flex-none top-0 border-x border-black text-4xl text-center pt-20">
-      <div className="w-[50%] border-r-2 border-black">
-
-        <div className="grid gap-2 p-10 border-black border-b-2">
-          <header className="rounded-xl bg-black mx-auto text-green-600 w-fit p-2 text-xl">TONIGHT</header>
-          <p>Friday 24-2</p>
-          <p className="capitalize">inner tension w dasha rush aksamit blazej malinowski anna borsuk ola teks</p>
-          <p className="">sʞǝʇ ɐlo ʞnsɹoq ɐuuɐ ıʞsʍouılɐɯ ɾǝzɐlq ʇıɯɐsʞɐ ɥsnɹ ɐɥsɐp ʍ uoısuǝʇ ɹǝuuı</p>
-        </div>
-        
+    <div className="flex w-screen h-fit pb-[-40px] bg-black flex-none top-0 border-x border-black text-4xl text-center pt-20">
+      <div className="flex flex-col">
+        <img src={club1} alt="cloud" className={`${imgStyle}`}/>
+        <img src={club2} alt="cloud" className={`${imgStyle}`}/>    
+        <img src={club10} alt="cloud" className={`${imgStyle}`}/>    
+        <img src={club12} alt="cloud" className={`${imgStyle}`} />
+        <img src={club14} alt="cloud" className={`${imgStyle}`} />
+        <img src={club2} alt="cloud" className={`${imgStyle}`}/>  
       </div>
-      <div className="w-[25%] border-r-2 border-black">
-        <div className="grid gap-2 p-10 border-black border-b-2">
-          <header className="rounded-xl border-black border-2 mx-auto  w-fit p-2 text-xl">THIS WEEK</header>
-          <p>Saturday 25-2</p>
-          <p>SHADOWS: VIL, CRAVO</p>
-          <p>MKO / CRACKD, WENCEL</p>
-        </div>
-        <div className="grid gap-2 p-10 border-black border-b-2">
-          <header className="rounded-xl border-black border-2 mx-auto text-whtie w-fit p-2 text-xl">NEXT WEEK</header>
-          <p>Saturday 25-2</p>
-          <p>SHADOWS: VIL, CRAVO</p>
-          <p>MKO / CRACKD, WENCEL</p>
-        </div>
-        <div className="grid gap-2 p-10 border-black border-b-2">
-          <header className="rounded-xl border-black border-2 mx-auto w-fit p-2 text-xl">NEXT WEEK</header>
-          <p>Saturday 25-2</p>
-          <p>SHADOWS: VIL, CRAVO</p>
-          <p>MKO / CRACKD, WENCEL</p>
-        </div>
-        <div className="grid gap-2 p-10">
-          <header>view All events</header>
-        </div>
+      <div className="flex flex-col">
+        <img src={club4} alt="cloud" className={`${imgStyle}`}/>   
+        <img src={club5} alt="cloud" className={`${imgStyle}`}/>    
+        <img src={club6} alt="cloud" className={`${imgStyle}`} />
+        <img src={club3} alt="cloud" className={`${imgStyle}`} />
       </div>
-      <div className="w-[25%]">
-
-        <div className="grid p-10 border-black border-b-2 white">
-          <p>ELECTRONIC MUSIC VENUE FOR ALL HUMAN BEINGS. FOREVER THE BRIGHT SIDE OF THE NIGHT.</p> 
-        </div>
-        <div className="grid gap-2">
-          <p className="p-14 border-black border-b-2">Facebook</p>
-          <p className="p-14 border-black border-b-2">Instagram</p>
-          <p className="p-14 border-black border-b-2">House Rules</p>
-        </div>
-        
+      <div className="flex flex-col">
+        <img src={club7} alt="cloud" className={`${imgStyle}`}/>   
+        <img src={club8} alt="cloud" className={`${imgStyle}`}/>    
+        <img src={club9} alt="cloud" className={`${imgStyle}`}/>
+        <img src={club11} alt="cloud" className={`${imgStyle}`}/>    
+        <img src={club13} alt="cloud" className={`${imgStyle}`}/> 
       </div>
-          
     </div>
   )
 }
