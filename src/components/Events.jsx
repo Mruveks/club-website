@@ -4,7 +4,7 @@ const Events = () => {
 
   const eventStyle = "border-b-2 border-black p-10 hover:bg-red-400 h-full"
   const rectangleStyle_1 = "pl-60 h-20 w-20 border-black border-4 rotate-45 transform origin-bottom-left"
-  
+
   return (
     <div className="flex w-screen bg-red-600 flex-none top-0 border-x border-black text-4xl text-center pt-20">
 
@@ -32,7 +32,7 @@ const Events = () => {
           <p>Friday 17—3</p>
           <p>Antigone b2b Shlømo</p>
         </div>
-        <div className={`${eventStyle} border-b-0`}>
+        <div className={`${eventStyle} border-none`}>
           <p>SATURDAY 18—3</p>
           <p>Saturday chãos. #1 - Bardzo Bardzo</p>
           <p>Truant, Phil Jensky, internal explorer, absvrd</p>

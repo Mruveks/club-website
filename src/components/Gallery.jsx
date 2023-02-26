@@ -16,10 +16,10 @@ import club14 from '../assets/club14.jpg'
 
 const Gallery = () => {
 
-  const imgStyle = "grayscale hover:grayscale-0 w-96 border-transparent border-t-0 border"
+  const imgStyle = "grayscale hover:grayscale-0 w-96 border-transparent border-r-4 border-b-4"
 
   return (
-    <div className="flex w-screen bg-blue-600 flex-none top-0 border-x border-black text-4xl text-center pt-20">
+    <div className="flex w-screen bg-blue-600 flex-none top-0 text-4xl text-center pt-20">
       <div className="flex flex-col">
         <img src={club1} alt="cloud" className={`${imgStyle}`}/>
         <img src={club2} alt="cloud" className={`${imgStyle}`}/>    
