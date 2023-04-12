@@ -2,11 +2,11 @@ import React from 'react'
 
 const Events = () => {
 
-  const eventStyle = "border-b-2 border-black p-10 hover:bg-red-400 h-full"
+  const eventStyle = "border-b-2 border-black p-10 hover:bg-red-400 transition duration-300 cursor-pointer h-full"
   const rectangleStyle_1 = "pl-60 h-20 w-20 border-black border-4 rotate-45 transform origin-bottom-left"
 
   return (
-    <div className="flex w-screen bg-red-600 flex-none top-0 border-x border-black text-4xl text-center pt-20">
+    <div id="events-page" className="flex w-screen bg-red-600 flex-none top-0 border-x border-black text-4xl text-center pt-20">
 
       <div className="flex flex-col w-[70%] border-r-2 border-black">
 
